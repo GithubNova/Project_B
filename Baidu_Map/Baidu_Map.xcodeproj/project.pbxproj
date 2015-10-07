@@ -14,6 +14,7 @@
 		C267C0E41BC362B300065E5D /* Baidu_MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C267C0E31BC362B300065E5D /* Baidu_MapTests.m */; };
 		C267C0F21BC37B4A00065E5D /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C267C0EF1BC37B4A00065E5D /* BaiduMapAPI.framework */; };
 		C267C0F31BC37B4A00065E5D /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C267C0F11BC37B4A00065E5D /* BaiduMapAPI.framework */; };
+		C28E983E1BC4B1DF00309BE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28E983D1BC4B1DF00309BE1 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 		C267C0E31BC362B300065E5D /* Baidu_MapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baidu_MapTests.m; sourceTree = "<group>"; };
 		C267C0EF1BC37B4A00065E5D /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
 		C267C0F11BC37B4A00065E5D /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
+		C28E983C1BC4B1DF00309BE1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C28E983D1BC4B1DF00309BE1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			children = (
 				C267C0D11BC362B300065E5D /* AppDelegate.h */,
 				C267C0D21BC362B300065E5D /* AppDelegate.m */,
+				C28E983C1BC4B1DF00309BE1 /* ViewController.h */,
+				C28E983D1BC4B1DF00309BE1 /* ViewController.m */,
 				C267C0D41BC362B300065E5D /* Images.xcassets */,
 				C267C0D61BC362B300065E5D /* LaunchScreen.xib */,
 				C267C0ED1BC37B4A00065E5D /* BaiduMap_IOSSDK_v2.8.1_Lib */,
@@ -242,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28E983E1BC4B1DF00309BE1 /* ViewController.m in Sources */,
 				C267C0D31BC362B300065E5D /* AppDelegate.m in Sources */,
 				C267C0D01BC362B300065E5D /* main.m in Sources */,
 			);
@@ -442,6 +448,7 @@
 				C267C0E91BC362B300065E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C267C0EA1BC362B300065E5D /* Build configuration list for PBXNativeTarget "Baidu_MapTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +457,7 @@
 				C267C0EC1BC362B300065E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
